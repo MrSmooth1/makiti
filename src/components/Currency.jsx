@@ -13,7 +13,7 @@ function Currency(props) {
                 </option>
             )))}
         </label>
-        <input placeholder='Enter a value'  type="text"  value={props.amount} onChange={e=>props.onAmountChange(e.target.value)}/>
+        <input placeholder='Enter a value'  type="number"  value={props.amount} onChange={e=>props.onAmountChange(e.target.value)}/>
     </div>
   )
 }
